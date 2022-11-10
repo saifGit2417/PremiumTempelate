@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+.watchimage {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(https://uicookies.com/demo/theme/pixels/img/slider_7.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.head1 {
+    color: white;
+}
+
+.text {
+    width: 50vw;
+    height: 100vh;
+    background-color: #161c2e;
+    text-align: left;
+    padding: 15vh 7vw 0 7vw;
+}
+
+.text1 {
+    color: #3c4655;
+    padding: 10px 0;
+}
+
+.btncontainer {
+    margin-top: 5vh;
+}
+
+.button {
+    background-color: #161c2e;
+    border: 1px solid #3c4655;
+    border-radius: 30px;
+}
+
+.button:hover {
+    border: 1px solid orange;
+    background-color: #161c2e;
+    color: orange;
+    -webkit-transition: .5s all ease-in-out !important;
+    transition: .5s all ease-in-out !important;
+}
+
+.button1 {
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 30px;
+    color: white;
+    margin-left: 5vw;
+}
+
+.button1:hover {
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 30px;
+    color: white;
+}
+
+@media (min-width:1000px) and (max-width:1024px) {
+
+    .text1 {
+        color: #3c4655;
+        padding: 0;
+    }
+
+    .button1 {
+        margin: 0;
+    }
+}
+
+@media (min-width:425px) and (max-width:999px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 190vh;
+    }
+
+    .watchimage {
+        width: 100%;
+        height: 90vh;
+        background-image: url(https://uicookies.com/demo/theme/pixels/img/slider_7.jpg);
+        background-size: 100% 90vh;
+    }
+
+    .text {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media (min-width:300px) and (max-width:424px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 190vh;
+    }
+
+    .watchimage {
+        width: 100%;
+        height: 70vh;
+        background-image: url(https://uicookies.com/demo/theme/pixels/img/slider_7.jpg);
+        background-size: 100% 70vh;
+    }
+
+    .text {
+        width: 100%;
+        height: 120vh;
+    }
+
+    .btncontainer {
+        margin-top: 0;
+    }
+
+    .button1 {
+        margin: 0;
+    }
+}
