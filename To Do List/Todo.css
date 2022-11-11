@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(https://png.pngtree.com/png-clipart/20211227/original/pngtree-cute-colorful-to-do-list-template-design-printable-png-image_6988727.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head {
+    /* color: white; */
+    font-size: 40px;
+    padding: 10vh 0 0 0;
+}
+
+.input {
+    text-align: center;
+    width: 30vw;
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+.button {
+    height: 5vh;
+    width: 15vw;
+    border-radius: 30px;
+    background-color: orange;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    margin-top: 5vh;
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid orange;
+    color: black;
+    -webkit-transition: .5s all !important;
+    transition: .5s all !important;
+}
+#error{
+    color: red;
+    font-size: 30px;
+}
